@@ -17,7 +17,7 @@ Esta é uma extensão simples do Google Chrome para gerenciar suas tarefas diár
 ## Instalação
 1. Baixe ou clone o repositório.
    ```bash
-   git clone <URL_DO_REPOSITÓRIO_GITHUB>
+   git clone (https://github.com/rafuxo22/gerenciador_tarefas_simplificado)
 2. No Google Chrome, acesse chrome://extensions/.
 3.	Ative o Modo Desenvolvedor.
 4.	Clique em Carregar sem compactação e selecione a pasta do projeto.
