@@ -1,0 +1,67 @@
+body {
+  font-family: Helvetica, Arial, sans-serif; /* Fonte Helvetica com fallback para Arial */
+  padding: 10px;
+  width: 300px;
+  background-color: #000; /* Fundo preto */
+  color: #fff; /* Letras brancas */
+  border-radius: 10px; /* Bordas arredondadas no corpo */
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff; /* Títulos em branco */
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+
+#nova-tarefa {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #333; /* Fundo cinza escuro */
+  color: #fff; /* Texto branco */
+  border: 1px solid #fff; /* Borda branca */
+  border-radius: 5px; /* Bordas arredondadas no campo de entrada */
+}
+
+button {
+  margin-left: 10px;
+  background-color: #444; /* Botões com fundo cinza escuro */
+  color: #fff; /* Texto branco */
+  border: 1px solid #fff; /* Borda branca */
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px; /* Bordas arredondadas nos botões */
+}
+
+button:hover {
+  background-color: #555; /* Botão fica mais claro ao passar o mouse */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #222; /* Itens da lista com fundo mais escuro */
+  border-radius: 5px; /* Bordas arredondadas nos itens da lista */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff; /* Texto branco */
+}
+
+li button {
+  background-color: #444; /* Botão "Concluir" em cinza escuro */
+  color: #fff; /* Texto branco no botão "Concluir" */
+  border: 1px solid #fff; /* Borda branca */
+  border-radius: 5px; /* Bordas arredondadas no botão "Concluir" */
+}
+
+li button:hover {
+  background-color: #555; /* Botão "Concluir" mais claro ao passar o mouse */
+}

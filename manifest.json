@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Gerenciador de Tarefas Simplificado",
+  "version": "1.0",
+  "description": "Uma extensão simples para gerenciar suas tarefas diárias.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "src/popup.html"
+  }
+}
